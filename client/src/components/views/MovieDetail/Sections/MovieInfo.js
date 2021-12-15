@@ -4,8 +4,6 @@ import { Descriptions, Badge } from 'antd';
 
 function MovieInfo( props ) {
   let { movie } = props
-
-  console.log( props );
   return (
     <Descriptions title="User Info" bordered>
       <Descriptions.Item label="Title">{movie.original_title}</Descriptions.Item>
